@@ -14,3 +14,7 @@
 - https://github.com/jmagit/demos-devops
 - https://github.com/jmagit/demos-frontend-angular
 - https://github.com/jmagit/MOCKWebServer
+
+## Comandos
+
+- docker run --rm -it --name maven -v %cd%:/local -v maven-repository:/root/.m2 maven:3.8.6-eclipse-temurin-8 sh
